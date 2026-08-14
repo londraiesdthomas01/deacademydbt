@@ -15,7 +15,9 @@ models:
                   severity: warn
           
           
-
+      - name: emp_salary
+        data_tests:
+          - salary_check
         
 
 sources:
